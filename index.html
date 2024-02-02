@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Space Web</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+    <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,500&family=Epilogue&family=Montserrat:wght@900&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Poppins:wght@400;500&family=Quicksand:wght@500&family=Roboto&family=Space+Grotesk:wght@400;500&family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+        <nav class="navbar bg-body-transparent container ps-0 pe-0 d-xl-block d-lg-block d-md-none d-sm-none d-none">
+            <div class="container-fluid ps-0 pe-0">
+              <img src="/Odyssey.png" class="navbar-brand">
+              <form class="d-xl-flex d-lg-none" role="search" style="justify-content: space-between; align-items: center; width: 45rem;">
+                <a href="#" class="fw-bold" style="font-size: 18px; font-family: 'Plus Jakarta Sans'; color: #020305; text-decoration: none;">Stay Connected</a>
+                <a href="#" class="fw-bold" style="font-size: 18px; font-family: 'Plus Jakarta Sans'; color: #020305; text-decoration: none;">Education</a>
+                <a href="#" class="fw-bold" style="font-size: 18px; font-family: 'Plus Jakarta Sans'; color: #020305; text-decoration: none;">Community</a>
+                <a href="#" class="fw-bold" style="font-size: 18px; font-family: 'Plus Jakarta Sans'; color: #020305; text-decoration: none;">About Us</a>
+                <button class="btn btn-outline-success p-3 ps-5 pe-5 fw-bold" type="submit" style="background-color: #0D0F12; box-shadow: 0px 19px 45px -10px #0D0F1280; color: #FFFFFF; font-size: 18px; font-family: 'Plus Jakarta Sans'; border-radius: 20px;">Sign in</button>
+              </form>
+              <form class="d-lg-flex d-xl-none" role="search" style="justify-content: space-between; align-items: center; width: 38rem;">
+                <a href="#" class="fw-bold" style="font-size: 15px; font-family: 'Plus Jakarta Sans'; color: #020305; text-decoration: none;">Stay Connected</a>
+                <a href="#" class="fw-bold" style="font-size: 15px; font-family: 'Plus Jakarta Sans'; color: #020305; text-decoration: none;">Education</a>
+                <a href="#" class="fw-bold" style="font-size: 15px; font-family: 'Plus Jakarta Sans'; color: #020305; text-decoration: none;">Community</a>
+                <a href="#" class="fw-bold" style="font-size: 15px; font-family: 'Plus Jakarta Sans'; color: #020305; text-decoration: none;">About Us</a>
+                <button class="btn btn-outline-success p-3 ps-5 pe-5 fw-bold" type="submit" style="background-color: #0D0F12; box-shadow: 0px 19px 45px -10px #0D0F1280; color: #FFFFFF; font-size: 18px; font-family: 'Plus Jakarta Sans'; border-radius: 20px;">Sign in</button>
+              </form>
+            </div>
+        </nav>
+        <nav class="navbar bg-body-transparent container-fluid ps-0 pe-0 d-xl-none d-lg-none d-md-block d-sm-none d-none">
+            <div class="container-fluid ps-0 pe-0">
+              <img src="/Odyssey2.png" class="navbar-brand">
+              <form class="d-flex" role="search" style="justify-content: space-between; align-items: center; width: 31rem;">
+                <a href="#" class="fw-bolder" style="font-size: 12px; font-family: 'Plus Jakarta Sans'; color: #020305; text-decoration: none;">Stay Connected</a>
+                <a href="#" class="fw-bolder" style="font-size: 12px; font-family: 'Plus Jakarta Sans'; color: #020305; text-decoration: none;">Education</a>
+                <a href="#" class="fw-bolder" style="font-size: 12px; font-family: 'Plus Jakarta Sans'; color: #020305; text-decoration: none;">Community</a>
+                <a href="#" class="fw-bolder" style="font-size: 12px; font-family: 'Plus Jakarta Sans'; color: #020305; text-decoration: none;">About Us</a>
+                <button class="btn btn-outline-success p-3 ps-5 pe-5 fw-bold" type="submit" style="background-color: #0D0F12; box-shadow: 0px 19px 45px -10px #0D0F1280; color: #FFFFFF; font-size: 14px; font-family: 'Plus Jakarta Sans'; border-radius: 20px;">Sign in</button>
+              </form>
+            </div>
+        </nav>
+        <nav class="navbar navbar-expand-lg bg-body-transparent d-xl-none d-lg-none d-md-none d-sm-block d-block">
+            <div class="container-fluid ps-3 pe-2">
+              <img src="/Odyssey2.png" class="navbar-brand">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mt-3 mb-2 mb-lg-0 d-flex" style="flex-direction: column; justify-content: center; align-items: center;">
+                  <li class="nav-item">
+                    <a href="#" class="fw-bold" style="font-size: 18px; font-family: 'Plus Jakarta Sans'; color: #020305; text-decoration: none;">Stay Connected</a>
+                  </li>
+                  <li class="nav-item mt-4">
+                    <a href="#" class="fw-bold" style="font-size: 18px; font-family: 'Plus Jakarta Sans'; color: #020305; text-decoration: none;">Education</a>
+                  </li>
+                  <li class="nav-item mt-4">
+                    <a href="#" class="fw-bold" style="font-size: 18px; font-family: 'Plus Jakarta Sans'; color: #020305; text-decoration: none;">Community</a>
+                  </li>
+                  <li class="nav-item mt-4">
+                    <a href="#" class="fw-bold" style="font-size: 18px; font-family: 'Plus Jakarta Sans'; color: #020305; text-decoration: none;">About Us</a>
+                  </li>
+                  <li class="nav-item mt-4">
+                    <button class="btn btn-outline-success p-3 ps-5 pe-5 fw-bold" type="submit" style="background-color: #0D0F12; box-shadow: 0px 19px 45px -10px #0D0F1280; color: #FFFFFF; font-size: 18px; font-family: 'Plus Jakarta Sans'; border-radius: 20px;">Sign in</button>
+                  </li>
+                </ul>
+              </div>
+            </div>
+        </nav>
+        <div class="row p-0 mt-5 container d-xl-flex d-lg-none d-md-none d-sm-none d-none" style="background-image: url(/Rectangle\ 3.png); background-repeat: no-repeat; background-size: contain; height: 670px;">
+            <div class="col-xl-7">
+                <p class="fs-1 fw-bolder ms-4 mt-4" style="font-family: 'Plus Jakarta Sans'; color: #FFFFFF; width: 17rem;">Unveiling the Wonders of the Universe</p>
+                <p class="fs-6 fw-medium" style="line-height: 33px; margin-top: 170px; font-family: 'Plus Jakarta Sans'; color: #171E27; width: 37rem;">At odissey, our mission is to inspire, educate, and ignite your passion for the cosmos. We are your premier destination for all things related to space exploration, astronomy, and the mysteries of the universe. Whether you're a seasoned astronomer or a curious novice, join us on a journey to the furthest reaches of the cosmos.</p>
+                <div class="d-flex" style="margin-top: 37px; align-items: center; justify-content: space-between; width: 30rem;">
+                <button class="btn btn-outline-success p-3 ps-5 pe-5 fw-medium" type="submit" style="background-color: #0D0F12; box-shadow: 0px 19px 45px -10px #0D0F1280; color: #FFFFFF; font-size: 18px; font-family: 'Plus Jakarta Sans'; border-radius: 20px;">Get Started</button>
+                <a href="#" class="fw-bold fs-5 mb-0" style="font-family: 'Plus Jakarta Sans'; color: #020305; text-decoration: none;">Watch the Video <img class="ms-3" src="/Group 1.png" alt="" srcset=""></a>
+                </div>
+            </div>
+            <div class="col-xl-5 d-flex" style="flex-direction: column; background-image: url(/astronaut.png); background-repeat: no-repeat; background-size: 100%; margin-top: 30px;">
+                <div class="d-flex" style="margin-top: 200px; justify-content: center;">
+                    <div class="mt-5"><img style="width: 14rem;" src="/Group 122.png" alt="" srcset=""></div>
+                    <div class="ms-4"><img style="width: 12rem;" src="/Group 117.png" alt="" srcset=""></div>
+                </div>
+                <div class="d-flex" style="justify-content: center; margin-top: 0px;"><img style="width: 20rem;" src="/Group 121.png" alt="" srcset=""></div>
+            </div>
+        </div>
+
+
+
+        <div class="row p-0 mt-5 container d-xl-none d-lg-flex d-md-none d-sm-none d-none" style="background-image: url(/Rectangle\ 3.png); background-repeat: no-repeat; background-size: contain; height: 670px;">
+            <div class="col-lg-7">
+                <p class="fs-1 fw-bolder ms-4 mt-4" style="font-family: 'Plus Jakarta Sans'; color: #FFFFFF; width: 17rem;">Unveiling the Wonders of the Universe</p>
+                <p class="fs-6 fw-medium" style="line-height: 33px; margin-top: 110px; font-family: 'Plus Jakarta Sans'; color: #171E27; width: 30rem;">At odissey, our mission is to inspire, educate, and ignite your passion for the cosmos. We are your premier destination for all things related to space exploration, astronomy, and the mysteries of the universe. Whether you're a seasoned astronomer or a curious novice, join us on a journey to the furthest reaches of the cosmos.</p>
+                <div class="d-flex" style="margin-top: 37px; align-items: center; justify-content: space-between; width: 29rem;">
+                <button class="btn btn-outline-success p-3 ps-5 pe-5 fw-medium" type="submit" style="background-color: #0D0F12; box-shadow: 0px 19px 45px -10px #0D0F1280; color: #FFFFFF; font-size: 18px; font-family: 'Plus Jakarta Sans'; border-radius: 20px;">Get Started</button>
+                <a href="#" class="fw-bold fs-5 mb-0" style="font-family: 'Plus Jakarta Sans'; color: #020305; text-decoration: none;">Watch the Video <img class="ms-3" src="/Group 1.png" alt="" srcset=""></a>
+                </div>
+            </div>
+            <div class="col-lg-5 d-flex" style="flex-direction: column; background-image: url(/astronaut.png); background-repeat: no-repeat; background-size: 100%; margin-top: 30px;">
+                <div class="d-flex" style="margin-top: 150px; justify-content: center;">
+                    <div class="mt-4"><img style="width: 12rem;" src="/Group 122.png" alt="" srcset=""></div>
+                    <div class="ms-4"><img style="width: 10rem;" src="/Group 117.png" alt="" srcset=""></div>
+                </div>
+                <div class="d-flex" style="justify-content: center; margin-top: 40px;"><img style="width: 18rem;" src="/Group 121.png" alt="" srcset=""></div>
+            </div>
+        </div>
+
+
+
+        <div class="row p-0 mt-5 container d-xl-none d-lg-none d-md-flex d-sm-none d-none" style="background-image: url(/Rectangle\ 3.png); background-repeat: no-repeat; background-size: contain; height: 500px;">
+            <div class="col-md-7 ps-0">
+                <p class="fs-3 fw-bolder ms-4 mt-4" style="font-family: 'Plus Jakarta Sans'; color: #FFFFFF; width: 17rem;">Unveiling the Wonders of the Universe</p>
+                <p class="fw-medium" style="font-size: 14px; line-height: 33px; margin-top: 85px; font-family: 'Plus Jakarta Sans'; color: #171E27; width: 25rem;">At odissey, our mission is to inspire, educate, and ignite your passion for the cosmos. We are your premier destination for all things related to space exploration, astronomy, and the mysteries of the universe. Whether you're a seasoned astronomer or a curious novice, join us on a journey to the furthest reaches of the cosmos.</p>
+                <div class="d-flex" style="margin-top: 37px; align-items: center; justify-content: space-between; width: 24rem;">
+                <button class="btn btn-outline-success p-3 ps-5 pe-5 fw-medium" type="submit" style="background-color: #0D0F12; box-shadow: 0px 19px 45px -10px #0D0F1280; color: #FFFFFF; font-size: 14px; font-family: 'Plus Jakarta Sans'; border-radius: 20px;">Get Started</button>
+                <a href="#" class="fw-bold mb-0" style="font-size: 14px; font-family: 'Plus Jakarta Sans'; color: #020305; text-decoration: none;">Watch the Video <img class="ms-3" src="/Group 1.png" alt="" srcset=""></a>
+                </div>
+            </div>
+            <div class="col-md-5 d-flex" style="flex-direction: column; background-image: url(/astronaut.png); background-repeat: no-repeat; background-size: 110%; margin-top: 30px;">
+                <div class="d-flex" style="margin-top: 95px; justify-content: center;">
+                    <div class="mt-4"><img style="width: 9rem;" src="/Group 122.png" alt="" srcset=""></div>
+                    <div class="ms-4"><img style="width: 7rem;" src="/Group 117.png" alt="" srcset=""></div>
+                </div>
+                <div class="d-flex" style="justify-content: center; margin-top: 40px;"><img style="width: 14rem;" src="/Group 121.png" alt="" srcset=""></div>
+            </div>
+        </div>
+
+
+
+        <div class="row p-0 mt-5 container d-xl-none d-lg-none d-md-none d-sm-flex d-none" style="background-image: url(/Rectangle\ 3.png); background-repeat: no-repeat; background-size: contain; height: 1000px;">
+            <div class="ps-4">
+                <p class="fs-5 fw-bolder mt-3 mb-0" style="font-family: 'Plus Jakarta Sans'; color: #FFFFFF; width: 17rem;">Unveiling the Wonders of the Universe</p>
+                <div style="display: flex; justify-content: center; height: 50vh;"><img src="/astronaut SM.png" alt="" srcset=""></div>
+                <!-- <div class="d-flex" style="flex-direction: column; background-image: url(/astronaut.png); background-repeat: no-repeat; background-size: 100%; margin-top: 30px;">
+                    <div class="d-flex" style="margin-top: 95px; justify-content: center;">
+                        <div class="mt-4"><img style="width: 9rem;" src="/Group 122.png" alt="" srcset=""></div>
+                        <div class="ms-4"><img style="width: 7rem;" src="/Group 117.png" alt="" srcset=""></div>
+                    </div>
+                    <div class="d-flex" style="justify-content: center; margin-top: 40px;"><img style="width: 14rem;" src="/Group 121.png" alt="" srcset=""></div>
+                </div> -->
+                <p class="fw-medium mb-0" style="font-size: 18px; line-height: 33px; margin-top: 0px; font-family: 'Plus Jakarta Sans'; color: #171E27; width: 25rem;">At odissey, our mission is to inspire, educate, and ignite your passion for the cosmos. We are your premier destination for all things related to space exploration, astronomy, and the mysteries of the universe. Whether you're a seasoned astronomer or a curious novice, join us on a journey to the furthest reaches of the cosmos.</p>
+                <div class="d-flex" style="flex-direction: column; margin-top: 37px; width: 15rem;">
+                <button class="btn btn-outline-success p-3 ps-5 pe-5 fw-medium w-75" type="submit" style="background-color: #0D0F12; box-shadow: 0px 19px 45px -10px #0D0F1280; color: #FFFFFF; font-size: 14px; font-family: 'Plus Jakarta Sans'; border-radius: 20px;">Get Started</button>
+                <a href="#" class="fw-bold mb-0 mt-4" style="font-size: 14px; font-family: 'Plus Jakarta Sans'; color: #020305; text-decoration: none;">Watch the Video <img class="ms-3" src="/Group 1.png" alt="" srcset=""></a>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <div class="row p-0 mt-5 container d-xl-none d-lg-none d-md-none d-sm-none d-flex" style="background-image: url(/Rectangle\ 3.png); background-repeat: no-repeat; background-size: contain; height: 80vh;">
+            <div class="ps-4">
+                <p class="fs-6 fw-bolder mt-3 mb-0" style="font-family: 'Plus Jakarta Sans'; color: #FFFFFF; width: 10rem;">Unveiling the Wonders of the Universe</p>
+                <div style="display: flex; justify-content: center; height: 30vh;"><img src="/astronaut SM.png" alt="" srcset=""></div>
+                <!-- <div class="d-flex" style="flex-direction: column; background-image: url(/astronaut.png); background-repeat: no-repeat; background-size: 100%; margin-top: 30px;">
+                    <div class="d-flex" style="margin-top: 95px; justify-content: center;">
+                        <div class="mt-4"><img style="width: 9rem;" src="/Group 122.png" alt="" srcset=""></div>
+                        <div class="ms-4"><img style="width: 7rem;" src="/Group 117.png" alt="" srcset=""></div>
+                    </div>
+                    <div class="d-flex" style="justify-content: center; margin-top: 40px;"><img style="width: 14rem;" src="/Group 121.png" alt="" srcset=""></div>
+                </div> -->
+                <p class="fw-medium mb-0" style="font-size: 14px; line-height: 33px; margin-top: 0px; font-family: 'Plus Jakarta Sans'; color: #171E27; width: 80vw;">At odissey, our mission is to inspire, educate, and ignite your passion for the cosmos. We are your premier destination for all things related to space exploration, astronomy, and the mysteries of the universe. Whether you're a seasoned astronomer or a curious novice, join us on a journey to the furthest reaches of the cosmos.</p>
+                <div class="d-flex" style="flex-direction: column; margin-top: 37px; width: 15rem;">
+                <button class="btn btn-outline-success p-3 ps-5 pe-5 fw-medium w-75" type="submit" style="background-color: #0D0F12; box-shadow: 0px 19px 45px -10px #0D0F1280; color: #FFFFFF; font-size: 14px; font-family: 'Plus Jakarta Sans'; border-radius: 20px;">Get Started</button>
+                <a href="#" class="fw-bold mb-0 mt-4" style="font-size: 14px; font-family: 'Plus Jakarta Sans'; color: #020305; text-decoration: none;">Watch the Video <img class="ms-3" src="/Group 1.png" alt="" srcset=""></a>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <div class="row d-xl-flex d-lg-none d-md-none d-sm-none d-none align-items-center" style="margin-top: 200px; justify-content: space-between;">
+            <div class="col d-flex ps-5" style="justify-content: center;"><img src="/SpaceX-Logo 1.png" alt="" srcset=""></div>
+            <div class="col"><img src="/2560px-NASA_Worm_logo_(black) 1.png" alt="" srcset=""></div>
+            <div class="col"><img src="/Boeing-Logo-1960-present 1.png" alt="" srcset=""></div>
+            <div class="col ps-0"><img src="/Astroscale_Main_Logo_RGB 1.png" alt="" srcset=""></div>
+        </div>
+        <div class="row d-xl-none d-lg-flex d-md-none d-sm-none d-none align-items-center" style="margin-top: 70px; justify-content: space-between;">
+            <div class="col"><img src="/Spacex1.png" alt="" srcset=""></div>
+            <div class="col"><img src="/Nasa1.png" alt="" srcset=""></div>
+            <div class="col"><img src="/Boeing1.png" alt="" srcset=""></div>
+            <div class="col"><img src="/Astroscale1.png" alt="" srcset=""></div>
+        </div>
+        <div class="row d-xl-none d-lg-none d-md-flex d-sm-none d-none align-items-center" style="margin-top: 70px; justify-content: space-between;">
+            <div class="col"><img src="/Spacex1.png" alt="" srcset=""></div>
+            <div class="col"><img src="/Nasa2.png" alt="" srcset=""></div>
+            <div class="col"><img src="/Boeing2.png" alt="" srcset=""></div>
+            <div class="col"><img src="/Astroscale1.png" alt="" srcset=""></div>
+        </div>
+        <div class="row d-xl-none d-lg-none d-md-none d-sm-flex d-flex align-items-center ps-3" style="flex-direction: column; margin-top: 70px; justify-content: space-between;">
+            <div class="d-flex" style="justify-content: space-between;">
+                <div><img src="/SpaceX-Logo 3.png" alt="" srcset=""></div>
+                <div><img src="/2560px-NASA_Worm_logo_(black) SM.png" alt="" srcset=""></div>
+            </div>
+            <div class="d-flex" style="justify-content: space-between;">
+                <div class="mt-4"><img src="/Boeing-SM.png" alt="" srcset=""></div>
+                <div class="mt-4"><img src="/Astroscale_Main_Logo_RGB SM.png" alt="" srcset=""></div>
+            </div>
+        </div>
+        <div style="margin-top: 70px; display: flex; justify-content: space-between;">
+            <p class="fs-1 fw-bolder col-xl-4 d-xl-block d-lg-none d-md-none d-sm-none d-none" style="width: 23rem; font-family: 'Plus Jakarta Sans'; color: #020305;">Join our vibrant community of space enthusiasts where you can</p>
+            <p class="fs-1 fw-bolder col-lg-5 d-lg-block d-xl-none d-md-none d-sm-none d-none" style="width: 22rem; font-family: 'Plus Jakarta Sans'; color: #020305;">Join our vibrant community of space enthusiasts where you can</p>
+            <p class="fs-3 fw-bolder d-lg-none d-xl-none d-md-block d-sm-none d-none" style="width: 15rem; font-family: 'Plus Jakarta Sans'; color: #020305;">Join our vibrant community of space enthusiasts where you can</p>
+            <div class="d-xl-flex d-lg-none d-md-none d-sm-none d-none col-xl-8" style="justify-content: flex-end; width: 50vw; flex-direction: row;">
+                <div class="d-flex" style="justify-content: space-between; width: 45rem;">
+                    <div>
+                        <div class="card d-flex" style="border: none; flex-direction: column; align-items: flex-start; width: 18rem;">
+                            <div>
+                                <img src="/Group 144.png" style="width: 90%;" alt="...">
+                            </div>
+                            <div class="card-body ps-0">
+                              <h5 class="card-title mb-2 fs-4 fw-bolder" style="font-family: 'Plus Jakarta Sans'; color: #020305;">Astronomy 101</h5>
+                              <p class="card-text fs-6 fw-medium" style="line-height: 33px; font-family: 'Plus Jakarta Sans'; color: #171E27;">Dive into the basics of astronomy. Learn about stars, planets, galaxies, and the tools astronomers use to explore the universe.</p>
+                            </div>
+                        </div>
+                        <div class="card d-flex mt-5" style="border: none; flex-direction: column; align-items: flex-start; width: 20rem;">
+                            <div>
+                                <img src="/Group 145.png" style="width: 90%;" alt="...">
+                            </div>
+                            <div class="card-body ps-0">
+                              <h5 class="card-title mb-2 fs-4 fw-bolder" style="font-family: 'Plus Jakarta Sans'; color: #020305;">Space Exploration</h5>
+                              <p class="card-text fs-6 fw-medium" style="line-height: 33px; font-family: 'Plus Jakarta Sans'; color: #171E27;">Explore the latest missions, both past and present, from NASA, ESA, SpaceX, and other space agencies and organizations.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="card d-flex" style="border: none; flex-direction: column; align-items: flex-start; width: 20rem;">
+                            <div>
+                                <img src="/Group 146.png" style="width: 90%;" alt="...">
+                            </div>
+                            <div class="card-body ps-0">
+                              <h5 class="card-title mb-2 fs-4 fw-bolder" style="font-family: 'Plus Jakarta Sans'; color: #020305;">Latest Discoveries</h5>
+                              <p class="card-text fs-6 fw-medium" style="line-height: 33px; font-family: 'Plus Jakarta Sans'; color: #171E27;">Stay up-to-date with the most recent breakthroughs and discoveries in the field of astrophysics and space exploration.</p>
+                            </div>
+                        </div>
+                        <div class="card d-flex mt-5" style="border: none; flex-direction: column; align-items: flex-start; width: 22rem;">
+                            <div>
+                                <img src="/Group 147.png" style="width: 90%;" alt="...">
+                            </div>
+                            <div class="card-body ps-0">
+                              <h5 class="card-title mb-2 fs-4 fw-bolder" style="font-family: 'Plus Jakarta Sans'; color: #020305;">Space Technology</h5>
+                              <p class="card-text fs-6 fw-medium" style="line-height: 33px; font-family: 'Plus Jakarta Sans'; color: #171E27;">Delve into the cutting-edge technology powering space exploration, from spacecraft and telescopes to propulsion systems and space habitats.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="d-lg-flex d-xl-none d-md-none d-sm-none d-none col-lg-7" style="justify-content: center; width: 50vw; flex-direction: row;">
+                <div class="d-flex" style="justify-content: space-between; width: 33rem;">
+                    <div>
+                        <div class="card d-flex" style="border: none; flex-direction: column; align-items: flex-start; width: 15rem;">
+                            <div>
+                                <img src="/Group 144.png" style="width: 70%;" alt="...">
+                            </div>
+                            <div class="card-body ps-0">
+                              <h5 class="card-title mb-2 fs-4 fw-bolder" style="font-family: 'Plus Jakarta Sans'; color: #020305;">Astronomy 101</h5>
+                              <p class="card-text fs-6 fw-medium" style="line-height: 33px; font-family: 'Plus Jakarta Sans'; color: #171E27;">Dive into the basics of astronomy. Learn about stars, planets, galaxies, and the tools astronomers use to explore the universe.</p>
+                            </div>
+                        </div>
+                        <div class="card d-flex mt-5" style="border: none; flex-direction: column; align-items: flex-start; width: 15rem;">
+                            <div>
+                                <img src="/Group 145.png" style="width: 70%;" alt="...">
+                            </div>
+                            <div class="card-body ps-0">
+                              <h5 class="card-title mb-2 fs-4 fw-bolder" style="font-family: 'Plus Jakarta Sans'; color: #020305;">Space Exploration</h5>
+                              <p class="card-text fs-6 fw-medium" style="line-height: 33px; font-family: 'Plus Jakarta Sans'; color: #171E27;">Explore the latest missions, both past and present, from NASA, ESA, SpaceX, and other space agencies and organizations.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="card d-flex" style="border: none; flex-direction: column; align-items: flex-start; width: 15rem;">
+                            <div>
+                                <img src="/Group 146.png" style="width: 70%;" alt="...">
+                            </div>
+                            <div class="card-body ps-0">
+                              <h5 class="card-title mb-2 fs-4 fw-bolder" style="font-family: 'Plus Jakarta Sans'; color: #020305;">Latest Discoveries</h5>
+                              <p class="card-text fs-6 fw-medium" style="line-height: 33px; font-family: 'Plus Jakarta Sans'; color: #171E27;">Stay up-to-date with the most recent breakthroughs and discoveries in the field of astrophysics and space exploration.</p>
+                            </div>
+                        </div>
+                        <div class="card d-flex mt-5" style="border: none; flex-direction: column; align-items: flex-start; width: 15rem;">
+                            <div>
+                                <img src="/Group 147.png" style="width: 70%;" alt="...">
+                            </div>
+                            <div class="card-body ps-0">
+                              <h5 class="card-title mb-2 fs-4 fw-bolder" style="font-family: 'Plus Jakarta Sans'; color: #020305;">Space Technology</h5>
+                              <p class="card-text fs-6 fw-medium" style="line-height: 33px; font-family: 'Plus Jakarta Sans'; color: #171E27;">Delve into the cutting-edge technology powering space exploration, from spacecraft and telescopes to propulsion systems and space habitats.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="d-lg-none d-xl-none d-md-flex d-sm-none d-none col-lg-7" style="justify-content: center; width: 45vw; flex-direction: row;">
+                <div class="d-flex" style="justify-content: space-between; width: 33rem;">
+                    <div>
+                        <div class="card d-flex" style="border: none; flex-direction: column; align-items: flex-start; width: 13rem;">
+                            <div>
+                                <img src="/Group 148.png" style="width: 70%;" alt="...">
+                            </div>
+                            <div class="card-body ps-0">
+                              <h5 class="card-title mb-2 fw-bolder" style="font-size: 13px; font-family: 'Plus Jakarta Sans'; color: #020305;">Astronomy 101</h5>
+                              <p class="card-text fw-bolder" style="font-size: 10px; line-height: 20px; font-family: 'Plus Jakarta Sans'; color: #171E27;">Dive into the basics of astronomy. Learn about stars, planets, galaxies, and the tools astronomers use to explore the universe.</p>
+                            </div>
+                        </div>
+                        <div class="card d-flex mt-5" style="border: none; flex-direction: column; align-items: flex-start; width: 13rem;">
+                            <div>
+                                <img src="/Group 150.png" style="width: 70%;" alt="...">
+                            </div>
+                            <div class="card-body ps-0">
+                              <h5 class="card-title mb-2 fw-bolder" style="font-size: 13px; font-family: 'Plus Jakarta Sans'; color: #020305;">Space Exploration</h5>
+                              <p class="card-text fw-bolder" style="font-size: 10px; line-height: 20px; font-family: 'Plus Jakarta Sans'; color: #171E27;">Explore the latest missions, both past and present, from NASA, ESA, SpaceX, and other space agencies and organizations.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="card d-flex" style="border: none; flex-direction: column; align-items: flex-start; width: 13rem;">
+                            <div>
+                                <img src="/Group 149.png" style="width: 70%;" alt="...">
+                            </div>
+                            <div class="card-body ps-0">
+                              <h5 class="card-title mb-2 fw-bolder" style="font-size: 13px; font-family: 'Plus Jakarta Sans'; color: #020305;">Latest Discoveries</h5>
+                              <p class="card-text fw-bolder" style="font-size: 10px; line-height: 20px; font-family: 'Plus Jakarta Sans'; color: #171E27;">Stay up-to-date with the most recent breakthroughs and discoveries in the field of astrophysics and space exploration.</p>
+                            </div>
+                        </div>
+                        <div class="card d-flex mt-5" style="border: none; flex-direction: column; align-items: flex-start; width: 13.2rem;">
+                            <div>
+                                <img src="/Group 151.png" style="width: 70%;" alt="...">
+                            </div>
+                            <div class="card-body ps-0">
+                              <h5 class="card-title mb-2 fw-bolder" style="font-size: 13px; font-family: 'Plus Jakarta Sans'; color: #020305;">Space Technology</h5>
+                              <p class="card-text fw-bolder" style="font-size: 10px; line-height: 20px; font-family: 'Plus Jakarta Sans'; color: #171E27;">Delve into the cutting-edge technology powering space exploration, from spacecraft and telescopes to propulsion systems and space habitats.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <p class="fs-3 fw-bolder d-lg-none d-xl-none d-md-none d-sm-block d-block ps-3" style="width: 20rem; font-family: 'Plus Jakarta Sans'; color: #020305;">Join our vibrant community of space enthusiasts where you can</p>
+            <div class="d-lg-none d-xl-none d-md-none d-sm-flex d-flex ps-3 mt-5" style="flex-direction: row;">
+                <div class="d-flex" style="flex-direction: column; justify-content: space-between; width: 33rem;">
+                    <div>
+                        <div class="card d-flex" style="border: none; flex-direction: column; align-items: flex-start; width: 20rem;">
+                            <div>
+                                <img src="/Group 144.png" style="width: 70%;" alt="...">
+                            </div>
+                            <div class="card-body ps-0">
+                              <h5 class="card-title mb-2 fs-4 fw-bolder" style="font-family: 'Plus Jakarta Sans'; color: #020305;">Astronomy 101</h5>
+                              <p class="card-text fs-6 fw-medium" style="line-height: 33px; font-family: 'Plus Jakarta Sans'; color: #171E27;">Dive into the basics of astronomy. Learn about stars, planets, galaxies, and the tools astronomers use to explore the universe.</p>
+                            </div>
+                        </div>
+                        <div class="card d-flex mt-4" style="border: none; flex-direction: column; align-items: flex-start; width: 20rem;">
+                            <div>
+                                <img src="/Group 145.png" style="width: 70%;" alt="...">
+                            </div>
+                            <div class="card-body ps-0">
+                              <h5 class="card-title mb-2 fs-4 fw-bolder" style="font-family: 'Plus Jakarta Sans'; color: #020305;">Space Exploration</h5>
+                              <p class="card-text fs-6 fw-medium" style="line-height: 33px; font-family: 'Plus Jakarta Sans'; color: #171E27;">Explore the latest missions, both past and present, from NASA, ESA, SpaceX, and other space agencies and organizations.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="card d-flex mt-4" style="border: none; flex-direction: column; align-items: flex-start; width: 20rem;">
+                            <div>
+                                <img src="/Group 146.png" style="width: 70%;" alt="...">
+                            </div>
+                            <div class="card-body ps-0">
+                              <h5 class="card-title mb-2 fs-4 fw-bolder" style="font-family: 'Plus Jakarta Sans'; color: #020305;">Latest Discoveries</h5>
+                              <p class="card-text fs-6 fw-medium" style="line-height: 33px; font-family: 'Plus Jakarta Sans'; color: #171E27;">Stay up-to-date with the most recent breakthroughs and discoveries in the field of astrophysics and space exploration.</p>
+                            </div>
+                        </div>
+                        <div class="card d-flex mt-4" style="border: none; flex-direction: column; align-items: flex-start; width: 20rem;">
+                            <div>
+                                <img src="/Group 147.png" style="width: 70%;" alt="...">
+                            </div>
+                            <div class="card-body ps-0">
+                              <h5 class="card-title mb-2 fs-4 fw-bolder" style="font-family: 'Plus Jakarta Sans'; color: #020305;">Space Technology</h5>
+                              <p class="card-text fs-6 fw-medium" style="line-height: 33px; font-family: 'Plus Jakarta Sans'; color: #171E27;">Delve into the cutting-edge technology powering space exploration, from spacecraft and telescopes to propulsion systems and space habitats.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="d-xl-block d-lg-none d-md-none d-sm-none d-none" style="margin-top: 80px; background-image: url(/Rectangle\ 8.png); height: 500px; background-repeat: no-repeat; background-size: contain;">
+            <div style="display: flex; justify-content: center; align-items: center;">
+                <p class="fs-1 d-flex fw-bolder" style="width: 50rem; margin-top: 40px; justify-content: center; align-items: center; text-align: center; color: #FFFFFF; font-family: 'Plus Jakarta Sans';">We are committed to making space science accessible to all. Explore our educational resources, including</p>
+            </div>
+            <div class="d-flex mt-4" style="justify-content: space-evenly;">
+                <div class="card p-4 ps-3 pe-3" style="width: 21rem; border-radius: 24px; box-shadow: 0px 20px 39px -12px #63757C33; border: #FFFFFF;">
+                    <div class="card-body">
+                      <h5 class="card-title fs-1 fw-bolder" style="font-family: 'Plus Jakarta Sans'; color: #A9C2CB;">01.</h5>
+                      <h5 class="card-title fs-5 fw-bolder" style="font-family: 'Plus Jakarta Sans'; color: #020305;">Online free courses and tutorials</h5>
+                      <p class="card-text mt-3" style="font-family: 'Plus Jakarta Sans'; color: #171E27;">Dive into the basics of astronomy. Learn about stars, planets, galaxies, and the tools astronomers use to explore the universe.</p>
+                    </div>
+                </div>
+                <div class="card p-4 ps-3 pe-3" style="width: 21rem; border-radius: 24px; box-shadow: 0px 20px 39px -12px #63757C33; border: #FFFFFF;">
+                    <div class="card-body">
+                      <h5 class="card-title fs-1 fw-bolder" style="font-family: 'Plus Jakarta Sans'; color: #A9C2CB;">02.</h5>
+                      <h5 class="card-title fs-5 fw-bolder" style="font-family: 'Plus Jakarta Sans'; color: #020305;">Resources for teachers and educators</h5>
+                      <p class="card-text mt-3" style="font-family: 'Plus Jakarta Sans'; color: #171E27;">Delve into the cutting-edge technology powering space exploration, from spacecraft and telescopes to propulsion systems and space habitats.</p>
+                    </div>
+                </div>
+                <div class="card p-4 ps-3 pe-3" style="width: 21rem; border-radius: 24px; box-shadow: 0px 20px 39px -12px #63757C33; border: #FFFFFF;">
+                    <div class="card-body">
+                      <h5 class="card-title fs-1 fw-bolder" style="font-family: 'Plus Jakarta Sans'; color: #A9C2CB;">03.</h5>
+                      <h5 class="card-title fs-5 fw-bolder" style="font-family: 'Plus Jakarta Sans'; color: #020305;">Book recommendations and reviews</h5>
+                      <p class="card-text mt-3" style="font-family: 'Plus Jakarta Sans'; color: #171E27;">Dive into the basics of astronomy. Learn about stars, planets, galaxies, and the tools astronomers use to explore the universe.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="d-xl-none d-lg-block d-md-none d-sm-none d-none" style="margin-top: 80px; background-image: url(/Rectangle\ 8.png); height: 500px; background-repeat: no-repeat; background-size: contain;">
+            <div style="display: flex; justify-content: center; align-items: center;">
+                <p class="fs-1 d-flex fw-bolder" style="width: 50rem; margin-top: 30px; justify-content: center; align-items: center; text-align: center; color: #FFFFFF; font-family: 'Plus Jakarta Sans';">We are committed to making space science accessible to all. Explore our educational resources, including</p>
+            </div>
+            <div class="d-flex mt-3" style="justify-content: space-evenly;">
+                <div class="card p-4 ps-3 pe-3" style="width: 18rem; border-radius: 24px; box-shadow: 0px 20px 39px -12px #63757C33; border: #FFFFFF;">
+                    <div class="card-body">
+                      <h5 class="card-title fs-1 fw-bolder" style="font-family: 'Plus Jakarta Sans'; color: #A9C2CB;">01.</h5>
+                      <h5 class="card-title fs-5 fw-bolder" style="font-family: 'Plus Jakarta Sans'; color: #020305;">Online free courses and tutorials</h5>
+                      <p class="card-text mt-3" style="font-family: 'Plus Jakarta Sans'; color: #171E27;">Dive into the basics of astronomy. Learn about stars, planets, galaxies, and the tools astronomers use to explore the universe.</p>
+                    </div>
+                </div>
+                <div class="card p-4 ps-3 pe-3" style="width: 18rem; border-radius: 24px; box-shadow: 0px 20px 39px -12px #63757C33; border: #FFFFFF;">
+                    <div class="card-body">
+                      <h5 class="card-title fs-1 fw-bolder" style="font-family: 'Plus Jakarta Sans'; color: #A9C2CB;">02.</h5>
+                      <h5 class="card-title fs-5 fw-bolder" style="font-family: 'Plus Jakarta Sans'; color: #020305;">Resources for teachers and educators</h5>
+                      <p class="card-text mt-3" style="font-family: 'Plus Jakarta Sans'; color: #171E27;">Delve into the cutting-edge technology powering space exploration, from spacecraft and telescopes to propulsion systems and space habitats.</p>
+                    </div>
+                </div>
+                <div class="card p-4 ps-3 pe-3" style="width: 18rem; border-radius: 24px; box-shadow: 0px 20px 39px -12px #63757C33; border: #FFFFFF;">
+                    <div class="card-body">
+                      <h5 class="card-title fs-1 fw-bolder" style="font-family: 'Plus Jakarta Sans'; color: #A9C2CB;">03.</h5>
+                      <h5 class="card-title fs-5 fw-bolder" style="width: 15rem; font-family: 'Plus Jakarta Sans'; color: #020305;">Book recommendations and reviews</h5>
+                      <p class="card-text mt-3" style="font-family: 'Plus Jakarta Sans'; color: #171E27;">Dive into the basics of astronomy. Learn about stars, planets, galaxies, and the tools astronomers use to explore the universe.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="d-xl-none d-lg-none d-md-block d-sm-none d-none" style="margin-top: 80px; background-image: url(/Rectangle\ 8.png); height: 250px; background-repeat: no-repeat; background-size: contain;">
+            <div style="display: flex; justify-content: center; align-items: center;">
+                <p class="fs-5 d-flex fw-bolder" style="width: 40rem; margin-top: 30px; justify-content: center; align-items: center; text-align: center; color: #FFFFFF; font-family: 'Plus Jakarta Sans';">We are committed to making space science accessible to all. Explore our educational resources, including</p>
+            </div>
+            <div class="d-flex mt-3" style="justify-content: space-evenly;">
+                <div class="card p-2" style="width: 13rem; border-radius: 24px; box-shadow: 0px 20px 39px -12px #63757C33; border: #FFFFFF;">
+                    <div class="card-body">
+                      <h5 class="card-title fs-3 fw-bolder" style="font-family: 'Plus Jakarta Sans'; color: #A9C2CB;">01.</h5>
+                      <h5 class="card-title fw-bolder" style="font-size: 13px; font-family: 'Plus Jakarta Sans'; color: #020305;">Online free courses and tutorials</h5>
+                      <p class="card-text mt-3" style="font-size: 12px; font-family: 'Plus Jakarta Sans'; color: #171E27;">Dive into the basics of astronomy. Learn about stars, planets, galaxies, and the tools astronomers use to explore the universe.</p>
+                    </div>
+                </div>
+                <div class="card p-2" style="width: 13rem; border-radius: 24px; box-shadow: 0px 20px 39px -12px #63757C33; border: #FFFFFF;">
+                    <div class="card-body">
+                      <h5 class="card-title fs-3 fw-bolder" style="font-family: 'Plus Jakarta Sans'; color: #A9C2CB;">02.</h5>
+                      <h5 class="card-title fw-bolder" style="font-size: 13px; font-family: 'Plus Jakarta Sans'; color: #020305;">Resources for teachers and educators</h5>
+                      <p class="card-text mt-3" style="font-size: 12px; font-family: 'Plus Jakarta Sans'; color: #171E27;">Delve into the cutting-edge technology powering space exploration, from spacecraft and telescopes to propulsion systems and space habitats.</p>
+                    </div>
+                </div>
+                <div class="card p-2" style="width: 13rem; border-radius: 24px; box-shadow: 0px 20px 39px -12px #63757C33; border: #FFFFFF;">
+                    <div class="card-body">
+                      <h5 class="card-title fs-3 fw-bolder" style="font-family: 'Plus Jakarta Sans'; color: #A9C2CB;">03.</h5>
+                      <h5 class="card-title fw-bolder" style="font-size: 13px; width: 12rem; font-family: 'Plus Jakarta Sans'; color: #020305;">Book recommendations and reviews</h5>
+                      <p class="card-text mt-3" style="font-size: 12px; font-family: 'Plus Jakarta Sans'; color: #171E27;">Dive into the basics of astronomy. Learn about stars, planets, galaxies, and the tools astronomers use to explore the universe.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="d-xl-none d-lg-none d-md-none d-sm-none d-block" style="margin-top: 80px; background-image: url(/Rectangle\ 8.png); height: 900px; background-repeat: no-repeat; background-size: contain;">
+            <div style="display: flex; justify-content: center; align-items: center;">
+                <p class="d-flex fw-bolder" style="font-size: 10px; width: 20rem; margin-top: 15px; justify-content: center; align-items: center; text-align: center; color: #FFFFFF; font-family: 'Plus Jakarta Sans';">We are committed to making space science accessible to all. Explore our educational resources, including</p>
+            </div>
+            <div class="d-flex mt-1" style="flex-direction: column; align-items: center;">
+                <div class="card p-4 ps-3 pe-3" style="width:  19rem; border-radius: 24px; box-shadow: 0px 20px 39px -12px #63757C33; border: #FFFFFF;">
+                    <div class="card-body">
+                      <h5 class="card-title fs-1 fw-bolder" style="font-family: 'Plus Jakarta Sans'; color: #A9C2CB;">01.</h5>
+                      <h5 class="card-title fs-5 fw-bolder" style="font-family: 'Plus Jakarta Sans'; color: #020305;">Online free courses and tutorials</h5>
+                      <p class="card-text mt-3" style="font-family: 'Plus Jakarta Sans'; color: #171E27;">Dive into the basics of astronomy. Learn about stars, planets, galaxies, and the tools astronomers use to explore the universe.</p>
+                    </div>
+                </div>
+                <div class="card p-4 ps-3 pe-3 mt-4" style="width:  19rem; border-radius: 24px; box-shadow: 0px 20px 39px -12px #63757C33; border: #FFFFFF;">
+                    <div class="card-body">
+                      <h5 class="card-title fs-1 fw-bolder" style="font-family: 'Plus Jakarta Sans'; color: #A9C2CB;">02.</h5>
+                      <h5 class="card-title fs-5 fw-bolder" style="font-family: 'Plus Jakarta Sans'; color: #020305;">Resources for teachers and educators</h5>
+                      <p class="card-text mt-3" style="font-family: 'Plus Jakarta Sans'; color: #171E27;">Delve into the cutting-edge technology powering space exploration, from spacecraft and telescopes to propulsion systems and space habitats.</p>
+                    </div>
+                </div>
+                <div class="card p-4 ps-3 pe-3 mt-4" style="width: 19rem; border-radius: 24px; box-shadow: 0px 20px 39px -12px #63757C33; border: #FFFFFF;">
+                    <div class="card-body">
+                      <h5 class="card-title fs-1 fw-bolder" style="font-family: 'Plus Jakarta Sans'; color: #A9C2CB;">03.</h5>
+                      <h5 class="card-title fs-5 fw-bolder" style="font-family: 'Plus Jakarta Sans'; color: #020305;">Book recommendations and reviews</h5>
+                      <p class="card-text mt-3" style="font-family: 'Plus Jakarta Sans'; color: #171E27;">Dive into the basics of astronomy. Learn about stars, planets, galaxies, and the tools astronomers use to explore the universe.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="d-xl-none d-lg-none d-md-none d-sm-block d-none" style="margin-top: 80px; background-image: url(/Rectangle\ 8.png); height: 1000px; background-repeat: no-repeat; background-size: contain;">
+            <div style="display: flex; justify-content: center; align-items: center;">
+                <p class="d-flex fs-5 fw-bolder" style="width: 30rem; margin-top: 15px; justify-content: center; align-items: center; text-align: center; color: #FFFFFF; font-family: 'Plus Jakarta Sans';">We are committed to making space science accessible to all. Explore our educational resources, including</p>
+            </div>
+            <div class="d-flex mt-1" style="flex-direction: column; align-items: center;">
+                <div class="card p-4 ps-3 pe-3" style="width:  19rem; border-radius: 24px; box-shadow: 0px 20px 39px -12px #63757C33; border: #FFFFFF;">
+                    <div class="card-body">
+                      <h5 class="card-title fs-1 fw-bolder" style="font-family: 'Plus Jakarta Sans'; color: #A9C2CB;">01.</h5>
+                      <h5 class="card-title fs-5 fw-bolder" style="font-family: 'Plus Jakarta Sans'; color: #020305;">Online free courses and tutorials</h5>
+                      <p class="card-text mt-3" style="font-family: 'Plus Jakarta Sans'; color: #171E27;">Dive into the basics of astronomy. Learn about stars, planets, galaxies, and the tools astronomers use to explore the universe.</p>
+                    </div>
+                </div>
+                <div class="card p-4 ps-3 pe-3 mt-4" style="width:  19rem; border-radius: 24px; box-shadow: 0px 20px 39px -12px #63757C33; border: #FFFFFF;">
+                    <div class="card-body">
+                      <h5 class="card-title fs-1 fw-bolder" style="font-family: 'Plus Jakarta Sans'; color: #A9C2CB;">02.</h5>
+                      <h5 class="card-title fs-5 fw-bolder" style="font-family: 'Plus Jakarta Sans'; color: #020305;">Resources for teachers and educators</h5>
+                      <p class="card-text mt-3" style="font-family: 'Plus Jakarta Sans'; color: #171E27;">Delve into the cutting-edge technology powering space exploration, from spacecraft and telescopes to propulsion systems and space habitats.</p>
+                    </div>
+                </div>
+                <div class="card p-4 ps-3 pe-3 mt-4" style="width: 19rem; border-radius: 24px; box-shadow: 0px 20px 39px -12px #63757C33; border: #FFFFFF;">
+                    <div class="card-body">
+                      <h5 class="card-title fs-1 fw-bolder" style="font-family: 'Plus Jakarta Sans'; color: #A9C2CB;">03.</h5>
+                      <h5 class="card-title fs-5 fw-bolder" style="font-family: 'Plus Jakarta Sans'; color: #020305;">Book recommendations and reviews</h5>
+                      <p class="card-text mt-3" style="font-family: 'Plus Jakarta Sans'; color: #171E27;">Dive into the basics of astronomy. Learn about stars, planets, galaxies, and the tools astronomers use to explore the universe.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="d-xl-block d-lg-none d-md-none d-sm-none d-none" style="padding: 80px; padding-left: 60px; padding-top: 60px; background-image: url(/Rectangle\ 504.png); background-repeat: no-repeat; background-size: contain; height: 430px; margin-top: 190px;">
+            <p class="fs-1 fw-bolder mb-2" style="font-family: 'Plus Jakarta Sans'; color: #FFFFFF;">Join our community</p>
+            <p class="fs-6 fw-lighter w-50" style="line-height: 30px; font-family: 'Plus Jakarta Sans'; color: #FFFFFF;">of stargazers, explorers, and cosmic enthusiasts as we embark on a journey through the cosmos like never before.</p>
+            <div class="d-flex" style="margin-top: 30px;">
+                <div class="form-outline w-50 p-3 ps-4" style="display: flex; align-items: center; border: 1px solid #FFFFFF; background-color: #FFFFFF; border-radius: 24px;" data-mdb-input-init>
+                    <input type="email" id="form1" placeholder="Enter your email" class="input-1" style="width: 29vw; border: none; font-family: 'Plus Jakarta Sans'; background: transparent;" class="form-control"/>
+                </div>
+                <button type="button" class="btn btn-primary fs-5 ms-3" style="padding-left: 35px; padding-right: 35px; color: #FFFFFF; font-family: 'Plus Jakarta Sans'; border-radius: 20px; background-color: #A9C2CB; border: #A9C2CB;">Subscribe</button>
+            </div>
+        </div>
+        <div class="d-xl-none d-lg-block d-md-none d-sm-none d-none" style="padding: 80px; padding-left: 40px; padding-top: 30px; background-image: url(/Rectangle\ 504.png); background-repeat: no-repeat; background-size: contain; height: 400px; margin-top: 190px;">
+            <p class="fs-1 fw-bolder mb-2" style="font-family: 'Plus Jakarta Sans'; color: #FFFFFF;">Join our community</p>
+            <p class="fs-6 fw-lighter w-75" style="line-height: 30px; font-family: 'Plus Jakarta Sans'; color: #FFFFFF;">of stargazers, explorers, and cosmic enthusiasts as we embark on a journey through the cosmos like never before.</p>
+            <div class="d-flex" style="margin-top: 30px;">
+                <div class="form-outline w-50 p-3 ps-4" style="display: flex; align-items: center; border: 1px solid #FFFFFF; background-color: #FFFFFF; border-radius: 24px;" data-mdb-input-init>
+                    <input type="email" id="form1" placeholder="Enter your email" class="input-1" style="width: 29vw; border: none; font-family: 'Plus Jakarta Sans'; background: transparent;" class="form-control"/>
+                </div>
+                <button type="button" class="btn btn-primary fs-5 ms-3" style="padding-left: 35px; padding-right: 35px; color: #FFFFFF; font-family: 'Plus Jakarta Sans'; border-radius: 20px; background-color: #A9C2CB; border: #A9C2CB;">Subscribe</button>
+            </div>
+        </div>
+        <div class="d-xl-none d-lg-none d-md-block d-sm-none d-none" style="padding: 80px; padding-left: 40px; padding-top: 25px; background-image: url(/Rectangle\ 504.png); background-repeat: no-repeat; background-size: contain; height: 260px; margin-top: 190px;">
+            <p class="fs-3 fw-bolder mb-2" style="font-family: 'Plus Jakarta Sans'; color: #FFFFFF;">Join our community</p>
+            <p class="fw-lighter w-75" style="font-size: 10px; line-height: 20px; font-family: 'Plus Jakarta Sans'; color: #FFFFFF;">of stargazers, explorers, and cosmic enthusiasts as we embark on a journey through the cosmos like never before.</p>
+            <div class="d-flex" style="margin-top: 20px;">
+                <div class="form-outline w-50 p-2 ps-3" style="display: flex; align-items: center; border: 1px solid #FFFFFF; background-color: #FFFFFF; border-radius: 12px;" data-mdb-input-init>
+                    <input type="email" id="form1" placeholder="Enter your email" class="input-1" style="width: 29vw; border: none; font-family: 'Plus Jakarta Sans'; background: transparent;" class="form-control"/>
+                </div>
+                <button type="button" class="btn btn-primary fs-5 ms-3" style="padding-left: 25px; padding-right: 25px; color: #FFFFFF; font-family: 'Plus Jakarta Sans'; border-radius: 12px; background-color: #A9C2CB; border: #A9C2CB;">Subscribe</button>
+            </div>
+        </div>
+        <div class="d-xl-none d-lg-none d-md-none d-sm-block d-none" style="padding: 80px; padding-left: 100px; padding-top: 10px; background-image: url(/Rectangle\ 504.png); background-repeat: no-repeat; background-size: contain; height: 220px; margin-top: 180px;">
+            <p class="fs-5 fw-bolder mb-1" style="font-family: 'Plus Jakarta Sans'; color: #FFFFFF;">Join our community</p>
+            <p class="fw-lighter w-75" style="margin-bottom: 12px; font-size: 8px; line-height: 14px; font-family: 'Plus Jakarta Sans'; color: #FFFFFF;">of stargazers, explorers, and cosmic enthusiasts as we embark on a journey through the cosmos like never before.</p>
+            <div class="d-flex" style="margin-top: 7px; flex-direction: column;">
+                <div class="form-outline w-75 p-2 ps-3" style="display: flex; align-items: center; border: 1px solid #FFFFFF; background-color: #FFFFFF; border-radius: 12px;" data-mdb-input-init>
+                    <input type="email" id="form1" placeholder="Enter your email" class="input-1" style="width: 50vw; border: none; font-size: 10px; height: 10px; font-family: 'Plus Jakarta Sans'; background: transparent;" class="form-control"/>
+                </div>
+                <button type="button" class="btn btn-primary w-75 mt-1" style="font-size: 10px; padding-left: 25px; padding-right: 25px; color: #FFFFFF; font-family: 'Plus Jakarta Sans'; height: 30px; border-radius: 12px; background-color: #A9C2CB; border: #A9C2CB;">Subscribe</button>
+            </div>
+        </div>
+        <div class="d-xl-none d-lg-none d-md-none d-sm-none d-block ps-3 pt-2 p-3" style="background-image: url(/Rectangle\ 504.png); background-repeat: no-repeat; background-size: contain; height: 170px; margin-top: 190px;">
+            <p class="fw-bolder mb-1" style="font-size: 11px; font-family: 'Plus Jakarta Sans'; color: #FFFFFF;">Join our community</p>
+            <p class="fw-lighter mb-1" style="width: 15rem; margin-bottom: 12px; font-size: 6px; line-height: 10px; font-family: 'Plus Jakarta Sans'; color: #FFFFFF;">of stargazers, explorers, and cosmic enthusiasts as we embark on a journey through the cosmos like never before.</p>
+            <div class="d-flex" style="margin-top: 5px; flex-direction: column;">
+                <div class="form-outline p-2 ps-2" style="width: 10rem; height: 10px; display: flex; align-items: center; border: 1px solid #FFFFFF; background-color: #FFFFFF; border-radius: 4px;" data-mdb-input-init>
+                    <input type="email" id="form1" placeholder="Enter your email" class="input-1" style="width: 50vw; border: none; font-size: 6px; height: 2vh; font-family: 'Plus Jakarta Sans'; background: transparent;" class="form-control"/>
+                </div>
+                <a href="#" style="font-size: 8px; border: 1px solid #A9C2CB; background-color: #A9C2CB; text-decoration: none; padding: 2px; border-radius: 4px; color: #FFFFFF; display: flex; justify-content: center; align-items: center; width: 10rem;" class="mt-1">Subscribe</a>
+                <!-- <button type="button" class="btn btn-primary w-75 mt-1" style="padding-bottom: 7px; font-size: 8px; padding-left: 25px; padding-right: 25px; color: #FFFFFF; font-family: 'Plus Jakarta Sans'; height: 7vh; border-radius: 12px; background-color: #A9C2CB; border: #A9C2CB;">Subscribe</button> -->
+            </div>
+        </div>
+        <div class="row d-xl-flex d-lg-none d-md-none d-sm-none d-none" style="margin-top: 70px;">
+            <div class="col-xl-3 col-lg-1"><img src="/Odyssey(f).png" alt="" srcset=""></div>
+            <div class="col-xl-5 col-lg-6 d-flex" style="justify-content: space-between;">
+                <a href="#" class="fs-6 fw-bolder" style="font-family: 'Plus Jakarta Sans'; color: #171E27; text-decoration: none;">Stay Connected</a>
+                <a href="#" class="fs-6 fw-bolder" style="font-family: 'Plus Jakarta Sans'; color: #171E27; text-decoration: none;">Education</a>
+                <a href="#" class="fs-6 fw-bolder" style="font-family: 'Plus Jakarta Sans'; color: #171E27; text-decoration: none;">Community</a>
+                <a href="#" class="fs-6 fw-bolder" style="font-family: 'Plus Jakarta Sans'; color: #171E27; text-decoration: none;">About Us</a>
+            </div>
+            <div class="col-xl-4 col-lg-5 d-flex" style="justify-content: flex-end;">
+                <a href="#" class="fs-6 fw-bolder" style="font-family: 'Plus Jakarta Sans'; color: #171E27; text-decoration: none;">Privacy policy</a>
+                <a href="#" class="fs-6 fw-bolder ms-5" style="font-family: 'Plus Jakarta Sans'; color: #171E27; text-decoration: none;">Terms & Agreements</a>
+            </div>
+        </div>
+        <div class="d-xl-none d-lg-flex d-md-none d-sm-none d-none" style="flex-direction: row; align-items: center; justify-content: space-between; margin-top: 70px;">
+            <div><img src="/Odyssey(f).png" alt="" srcset=""></div>
+            <div class="d-flex" style="width: 25rem; justify-content: space-between;">
+                <a href="#" class="fw-bolder" style="font-size: 15px; font-family: 'Plus Jakarta Sans'; color: #171E27; text-decoration: none;">Stay Connected</a>
+                <a href="#" class="fw-bolder" style="font-size: 15px; font-family: 'Plus Jakarta Sans'; color: #171E27; text-decoration: none;">Education</a>
+                <a href="#" class="fw-bolder" style="font-size: 15px; font-family: 'Plus Jakarta Sans'; color: #171E27; text-decoration: none;">Community</a>
+                <a href="#" class="fw-bolder" style="font-size: 15px; font-family: 'Plus Jakarta Sans'; color: #171E27; text-decoration: none;">About Us</a>
+            </div>
+            <div class="d-flex" style="justify-content: flex-end;">
+                <a href="#" class="fs-6 fw-bolder" style="font-family: 'Plus Jakarta Sans'; color: #171E27; text-decoration: none;">Privacy policy</a>
+                <a href="#" class="fs-6 fw-bolder ms-3" style="font-family: 'Plus Jakarta Sans'; color: #171E27; text-decoration: none;">Terms & Agreements</a>
+            </div>
+        </div>
+        <div class="row d-xl-none d-lg-none d-md-flex d-sm-none d-none" style="flex-direction: column; margin-top: 30px;">
+            <div><img src="/Odyssey(f).png" alt="" srcset=""></div>
+            <div class="mt-3 d-flex" style="justify-content: space-between; width: 30rem;">
+                <a href="#" class="fs-6 fw-bolder" style="font-family: 'Plus Jakarta Sans'; color: #171E27; text-decoration: none;">Stay Connected</a>
+                <a href="#" class="fs-6 fw-bolder" style="font-family: 'Plus Jakarta Sans'; color: #171E27; text-decoration: none;">Education</a>
+                <a href="#" class="fs-6 fw-bolder" style="font-family: 'Plus Jakarta Sans'; color: #171E27; text-decoration: none;">Community</a>
+                <a href="#" class="fs-6 fw-bolder" style="font-family: 'Plus Jakarta Sans'; color: #171E27; text-decoration: none;">About Us</a>
+            </div>
+            <div class="d-flex mt-3" style="justify-content: flex-start;">
+                <a href="#" class="fs-6 fw-bolder" style="font-family: 'Plus Jakarta Sans'; color: #171E27; text-decoration: none;">Privacy policy</a>
+                <a href="#" class="fs-6 fw-bolder ms-5" style="font-family: 'Plus Jakarta Sans'; color: #171E27; text-decoration: none;">Terms & Agreements</a>
+            </div>
+            <p class="mb-0 mt-3">[contact@odyssey.com].</p>
+        </div>
+        <div class="row d-xl-none d-lg-none d-md-none d-sm-flex d-none" style="flex-direction: column; margin-top: 0px;">
+            <div><img src="/Odyssey(f).png" alt="" srcset=""></div>
+            <div class="mt-3 d-flex" style="flex-direction: column;">
+                <a href="#" class="fs-6 mt-3 fw-bolder" style="font-family: 'Plus Jakarta Sans'; color: #171E27; text-decoration: none;">Stay Connected</a>
+                <a href="#" class="mt-3 fs-6 fw-bolder" style="font-family: 'Plus Jakarta Sans'; color: #171E27; text-decoration: none;">Education</a>
+                <a href="#" class="mt-3 fs-6 fw-bolder" style="font-family: 'Plus Jakarta Sans'; color: #171E27; text-decoration: none;">Community</a>
+                <a href="#" class="mt-3 fs-6 fw-bolder" style="font-family: 'Plus Jakarta Sans'; color: #171E27; text-decoration: none;">About Us</a>
+            </div>
+            <div class="d-flex mt-4" style="justify-content: flex-start;">
+                <a href="#" class="fs-6 fw-bolder" style="font-family: 'Plus Jakarta Sans'; color: #171E27; text-decoration: none;">Privacy policy</a>
+                <a href="#" class="fs-6 fw-bolder ms-4" style="font-family: 'Plus Jakarta Sans'; color: #171E27; text-decoration: none;">Terms & Agreements</a>
+            </div>
+            <p class="mb-0 mt-4">[contact@odyssey.com].</p>
+        </div>
+        <div class="row d-xl-none d-lg-none d-md-none d-sm-none d-flex" style="flex-direction: column; margin-top: 0px;">
+            <div><img src="/Odyssey(f).png" alt="" srcset=""></div>
+            <div class="mt-3 d-flex" style="flex-direction: column;">
+                <a href="#" class="fs-6 mt-3 fw-bolder" style="font-family: 'Plus Jakarta Sans'; color: #171E27; text-decoration: none;">Stay Connected</a>
+                <a href="#" class="mt-3 fs-6 fw-bolder" style="font-family: 'Plus Jakarta Sans'; color: #171E27; text-decoration: none;">Education</a>
+                <a href="#" class="mt-3 fs-6 fw-bolder" style="font-family: 'Plus Jakarta Sans'; color: #171E27; text-decoration: none;">Community</a>
+                <a href="#" class="mt-3 fs-6 fw-bolder" style="font-family: 'Plus Jakarta Sans'; color: #171E27; text-decoration: none;">About Us</a>
+            </div>
+            <div class="d-flex mt-4" style="justify-content: flex-start;">
+                <a href="#" class="fs-6 fw-bolder" style="font-family: 'Plus Jakarta Sans'; color: #171E27; text-decoration: none;">Privacy policy</a>
+                <a href="#" class="fs-6 fw-bolder ms-4" style="font-family: 'Plus Jakarta Sans'; color: #171E27; text-decoration: none;">Terms & Agreements</a>
+            </div>
+            <p class="mb-0 mt-4">[contact@odyssey.com].</p>
+        </div>
+    </div>
+</body>
+</html>
